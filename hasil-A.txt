@@ -1,0 +1,38 @@
+root@ubuntu:~$ history > root/riwayat-A.txt
+bash: root/riwayat-A.txt: No such file or directory
+root@ubuntu:~$ cat /root/riwayay-A.txt
+cat: /root/riwayay-A.txt: No such file or directory
+root@ubuntu:~$ history > /root/riwayat-A.txt
+root@ubuntu:~$ cat /root/riwayat-a.txt
+cat: /root/riwayat-a.txt: No such file or directory
+root@ubuntu:~$ cat /root/riwayat-A.txt
+    1  1s /etc | head -20
+    2  1s -1 /var/log
+    3  ls etc | head -20
+    4  ls /etc | head 20
+    5  ls /etc | head -20
+    6  ls -1 /var/log
+    7  tail -5 /etc/passwd
+    8  ls -ld /home /root /tmp
+    9  useradd -m -s /bin/bash mhs23230024
+   10  echo "mhs23230024:Cloud2026" | chpasswd
+   11  usemod -aG sudo mhs23230024
+   12  id mhs23230024
+   13  usermod -aG sudo mhs23230024
+   14  id mhs23230024
+   15  su - mhs23230024
+   16  mkdir -p /srv/data
+   17  echo "Catatan rahasia NIM 23230024" > /srv/data/catatan.txt
+   18  chown mhs23230024:mhs23230024 /srv/data/catatan.txt
+   19  chmod 600 /srv/data/catatan.txt
+   20  ls -l /srv/data
+   21  useradd -m tamu
+   22  su - tamu -c "cat /srv/data/catatan.txt
+su -mhs23230024 -c "cat /srv/data/catatan.txt
+   23  sleep 600 & ps aux | grep sleep
+   24  kill 29506
+   25  ps aux | grep sleep
+   26  history > root/riwayat-A.txt
+   27  cat /root/riwayay-A.txt
+   28  history > /root/riwayat-A.txt
+root@ubuntu:~$ 
